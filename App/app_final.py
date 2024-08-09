@@ -117,7 +117,6 @@ if uploaded_file is not None:
         
         # Display the result
         if prediction < 0.5:  # Assuming the model outputs a single sigmoid value for binary classification
-            ouch = Image.open('ouch.jpg')
             wasted = Image.open('wasted.jpg')
             st.image(wasted, caption='There is a fracture.', use_column_width=True)
             st.write('There is a fracture.')
