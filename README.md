@@ -8,7 +8,7 @@ This project takes a dataset of xray images, one class contains fractured bones,
 
 ## Project Overview
 
-1. First I performed an exploratory data analysis.
+### 1. First I performed an exploratory data analysis.
 
 Full report can be found in this github repository (Report.pdf).
 
@@ -18,7 +18,7 @@ Based on that analysis i will preprocess images the following way :
 - Normalise pixels from [-1, 1]
 - Perform data augmentation on the training set only to acheive higher model performance
 
-2. Model Training and Performance
+### 2. Model Training and Performance
 
 Training was performed using the pytorch library and a RTX 4060 gpu.
 I will be using convolutional neural networks since they perform well on images.
@@ -38,7 +38,7 @@ I would get a high performing model. This was reached after 40 epochs.
 ![image](https://github.com/user-attachments/assets/b6bb1a5b-a988-4723-a489-35a5674fbb8a)
 
 
-3. Conclusions about the model's performance.
+### 3. Conclusions about the model's performance.
 
 Performance :
 
@@ -73,7 +73,7 @@ patients potentially at risk.
 Our model predicts in less than a second if an Xray is a broken bone or not. Allowing doctors
 to spend less time looking at the Xray's.
 
-4. The app, built using streamlit
+### 4. The app, built using streamlit
 
 This app allows you to upload an xray image and get an instant prediction / classification on wether the bone is fractured or not fractured.
 
