@@ -81,6 +81,8 @@ This app allows you to upload an xray image and get an instant prediction / clas
 
 ![image](https://github.com/user-attachments/assets/783f0c90-7772-4294-9c32-2fb47cbab930)
 
+![image](https://github.com/user-attachments/assets/78dfa013-6ad4-4222-b8c3-2b4315b8822c)
+
 ![image](https://github.com/user-attachments/assets/60f842e1-83f3-4660-9c5d-d88034f735e9)
 
 This app was also deployed using streamlit.
